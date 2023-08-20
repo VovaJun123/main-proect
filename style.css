@@ -1,0 +1,1170 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+    margin: 0;
+
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+blockquote,
+q {
+    quotes: "" "";
+}
+
+/* .box {
+    overflow: scroll;
+} */
+
+/* <!-- --------------------------------------------------------------header --> */
+
+
+
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    max-height: 80vh;
+    margin-top: 1ch;
+    margin-left: -15ch;
+    min-width: 2px;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+    letter-spacing: 1px;
+    font-size: 1.1vw;
+    color: rgb(252, 250, 250);
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    background-color: #000;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {
+    color: #636262;
+}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+.conteiner {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.heder-bloc {
+    background-color: black;
+    height: 210px;
+
+}
+
+.heder-image {
+    align-items: center;
+    text-align: center;
+    display: block;
+    padding-top: 50px
+}
+
+.header-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.header-linc-text {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+
+
+}
+
+
+
+.header-linc-text:hover {
+
+    border-bottom: 2px solid white;
+}
+
+/* <!-- --------------------------------------------------------------section-1 --> */
+.section-first {
+    background-image: url("/image/first-bacround.webp");
+    background-size: 100% 100%;
+
+    min-height: 500px;
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+.first-content {
+    width: fit-content;
+    height: fit-content;
+    padding-top: 20%;
+    padding-bottom: 19%;
+    margin: 0 auto;
+}
+
+
+.section-first-btn {
+
+
+    position: relative;
+
+
+}
+
+.section-first-btn p {
+    font-size: 60px;
+    font-weight: 500;
+    color: rgb(175, 110, 49);
+    margin-bottom: 20px;
+}
+
+
+
+.first-btn {
+
+    font-size: 27px;
+    display: inline-block;
+    width: 230px;
+    font-weight: 600;
+    padding: 15px;
+    color: rgb(11, 11, 11);
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 5%;
+    border-color: rgb(178, 176, 173);
+
+    text-align: center;
+    align-items: center;
+    outline: none;
+    text-decoration: none;
+    transition: color 0.3s ease-out,
+        background-color 0.3s ease-out,
+        border-color 0.3s ease-out;
+}
+
+.first-btn-box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.first-btn:hover,
+.first-btn:active {
+
+    border-color: #080808;
+    /* color: #fff; */
+    transition: color 0.3s ease-in,
+        background-color 0.3s ease-in,
+        border-color 0.3s ease-in;
+}
+
+/* <!-- --------------------------------------------------------------section-2 --> */
+.second-section-bloc {
+    background-color: #080808;
+}
+
+.second-section-content {
+    max-width: 1200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.second-title {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.second-text {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    gap: 1px;
+    line-height: 1.2;
+}
+
+.second-btn {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    background-color: #080808;
+    border: 2px solid #8f8c3bd2;
+    color: white;
+    padding: 15px;
+    width: fit-content;
+    margin: 0 auto;
+
+
+
+}
+
+.second-btn:hover {
+    background-color: #a38a2cd2;
+}
+
+/* <!-- --------------------------------------------------------------section-3 --> */
+.thre-section {
+    background-color: bisque;
+}
+
+.thre-bloc {
+    padding: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.thre-content {
+    background-color: #fff;
+    max-width: 600px;
+    padding: 120px 160px;
+
+
+
+}
+
+
+
+.thre-title {
+    align-items: center;
+    text-align: left;
+    font-size: 40px;
+    color: #080808;
+    margin-bottom: 20px;
+
+
+}
+
+.thre-parahraf {
+    align-items: center;
+    text-align: left;
+    font-size: 18px;
+    color: #080808;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+    line-height: 1.3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.thre-button {
+    font-size: 23px;
+    color: #fff;
+    border: 2px solid black;
+    padding: 15px 20px;
+    background-color: #080808;
+}
+
+.thre-button:hover,
+.thre-button:focus {
+    background-color: darkgoldenrod;
+    border-color: darkgoldenrod;
+}
+
+/* <!-- --------------------------------------------------------------section-4 --> */
+.four-bloc {
+    background-color: #080808;
+    padding: 100px 10px;
+    min-height: 900px;
+
+}
+
+.four-text {
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-bottom: 40px;
+}
+
+.four-title {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.four-parahraf {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+
+}
+
+.box-1 {
+    background-image: url(/image/box-1.webp);
+
+
+
+}
+
+.box-2 {
+    background-image: url(/image/box-2.webp);
+
+}
+
+.box-3 {
+    background-image: url(/image/box-3.webp);
+
+
+}
+
+
+
+
+.inside {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.four-conteiner {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+
+}
+
+.box-content {
+    padding-top: 10%;
+
+}
+
+.box-content p {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.box-content a {
+    font-size: 25px;
+    border: 3px solid white;
+    padding: 10px 15px;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+
+}
+
+.box-content a:hover {
+    color: #f5f3f3;
+    border-color: #080808;
+    background-color: #080808;
+}
+
+/* <!-- --------------------------------------------------------------section-5 --> */
+.fife-bloc {
+    background: #000;
+}
+
+
+.fife-bloc {
+    background: #000;
+}
+
+.fife-list-linck img:hover {
+    opacity: 0.5;
+}
+
+.fife-list {
+    padding: 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.fife-bloc {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.overlay {
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin: 0;
+    font-size: 18px;
+}
+
+.fife-bloc:hover .overlay,
+.fife-bloc:focus .overlay {
+    transform: translatex(0);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+
+    opacity: 90%;
+    transform: translate(0, 100%);
+    transition: transform 250ms linear;
+    font-size: 23px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fife-button {
+    display: flex;
+    justify-content: center;
+}
+
+.fife-button {
+    font-size: 24px;
+    color: #080808;
+    border: 2px solid #080808;
+    text-align: center;
+    align-items: center;
+    width: 110px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+
+}
+
+.fife-button:hover,
+.fife-button:focus {
+    background-color: #080808;
+    color: #fff;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms linear;
+}
+
+/* <!-- --------------------------------------------------------------footer --> */
+.footer-box {
+    background-color: #070707;
+}
+
+.footer-conteiner {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.footer-second {
+    display: block;
+}
+
+.footer-parahraf {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 22px;
+}
+
+.footer-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+
+}
+
+.footer-conteiner {
+    padding-top: 40px;
+}
+
+.footer-email {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.footer-email:hover,
+.footer-email:focus {
+    color: darkgoldenrod;
+}
+
+.footer-contact {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: darkgoldenrod;
+}
+
+.footer-button {
+    font-size: 20px;
+    color: #080808;
+    border: 2px solid #080808;
+    padding: 9px 13px;
+    text-align: center;
+    align-items: center;
+    background-color: darkgoldenrod;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+    color: rgb(232, 229, 221);
+    border-color: #fff;
+}
+
+.footer-input {
+    height: 28px;
+    width: 250px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.footer-number {
+    padding-top: 10px;
+
+    padding-bottom: 5px;
+}
+
+.last-content {
+    padding-bottom: 20px;
+}
+
+
+
+
+/* ///////////////////////////////////////////////about */
+
+.bc-box {
+    background-size: 100%;
+    min-height: 500px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./image/aboutt-bc.webp);
+    padding-top: 150px;
+    padding-bottom: 230px;
+}
+
+.content-box {
+    background-color: #f1f1f1;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px;
+    visibility: 0.5;
+
+
+
+
+}
+
+.about-title {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 0.2;
+    color: #000;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.about-parahraf {
+    font-size: 22px;
+    line-height: 2.1;
+    color: #000;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.abour-btn {
+    color: #f1f1f1;
+    font-size: 22px;
+    background-color: #000;
+    border: 2px solid #000;
+    padding: 10px 15px;
+    align-items: center;
+    display: block;
+    text-align: center;
+    width: 130px;
+    margin: 0 auto;
+
+}
+
+.second-video-section {
+    background-color: #fff;
+
+}
+
+.video-proect {
+    padding: 300px;
+    padding-top: 100px;
+
+    padding-bottom: 0px;
+}
+
+.second-video-title {
+    font-size: 60px;
+    color: #070707;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    padding-top: 70px;
+    width: fit-content;
+
+
+
+}
+
+.second-video-title-box {
+    position: relative;
+
+}
+
+.span-lin {
+    display: flex;
+    justify-content: center;
+    margin-right: 300px;
+    padding-top: 30px;
+}
+
+.second-video-span::before {
+    content: '';
+    position: absolute;
+    width: 300px;
+
+    border-bottom: 3px solid rgb(22, 13, 120);
+
+}
+
+
+
+
+
+
+
+
+
+
+input {
+    padding: 8px;
+    font: inherit;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-item {
+    margin-bottom: 50px;
+}
+
+.main-link {
+    margin-bottom: 20px;
+    text-decoration: none;
+
+    max-width: 150px;
+    padding: 8px 12px;
+
+    border: 0;
+    outline: 0;
+    border-radius: 320px;
+
+    background-color: #ebecf0;
+    text-shadow: 1px 1px 0 #fff;
+
+    font-size: 16px;
+    font: inherit;
+    font-weight: bold;
+
+    color: #61677c;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.main-link:hover {
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+.main-link:active {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+:root {
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --animation-duration: 250ms;
+}
+
+.gallery {
+    display: grid;
+    max-width: 1140px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-auto-rows: 240px;
+    grid-gap: 12px;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery__item {
+    position: relative;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.gallery__image:hover {
+    transform: scale(1.03);
+}
+
+.gallery__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform var(--animation-duration) var(--timing-function);
+}
+
+.gallery__link {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+}
+
+.gallery__link:hover {
+    cursor: zoom-in;
+}
+
+.image-halery {
+    padding: 50px;
+}
+
+/* ////////////////////////////////////////////Services pages */
+.linck-box {
+    background-color: #191919;
+
+}
+
+.linck-text-box {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.linck-title {
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 70px;
+    letter-spacing: 4px;
+
+}
+
+.linck-parahraf {
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 1.1px;
+    line-height: 28px;
+
+
+}
+
+.linck-parahraf-title {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline #f1f1f1;
+}
+
+.linck-parahraf-box {
+    padding-top: 50px;
+}
+
+.page-color-oun {
+    color: red;
+}
+
+/* ////////////////////////////////page-contact */
+.contact-bos {
+    padding: 50px;
+}
+
+.contact-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 500px;
+
+}
+
+.contacs-bacroun-image {
+    background-image: url(./image/contacs-bcround-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1394px;
+    width: 100%;
+}
+
+.contact-text-content {
+    background-color: #1e1e1e;
+    max-width: 700px;
+
+}
+
+.linck-svg {
+    background-color: #090909;
+}
+
+.svgee {
+    fill: #999;
+    width: 24px;
+    height: 24px;
+}
+
+.contact-second {
+    display: block;
+}
+
+.contact-parahraf {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.contact-title {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    text-align: left;
+
+}
+
+.contact-title-second {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    text-align: left;
+}
+
+
+.contact-email {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.contact-email:hover,
+.contact-email:focus {
+    color: rgb(135, 109, 45);
+}
+
+.contact-contactt {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.contact-contact:hover,
+.contact-contact:focus {
+    color: rgb(195, 167, 97);
+}
+
+
+
+.footer-number {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.last-content {
+    padding-bottom: 20px;
+}
+
+.contact-form {
+    background-color: #f1f1f1;
+    min-width: 700px;
+    height: inherit;
+    padding: 50px;
+}
+
+.input-first {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    padding-top: 100px;
+}
+
+.input-second {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.input-thre {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.contact-input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid;
+    color: black;
+    background-color: inherit;
+}
+
+
+.contact-button {
+    font-size: 20px;
+    color: #f8f6f6;
+    border: 2px solid #080808;
+    padding: 9px 13px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(11, 11, 11);
+
+}
+
+.contact-button:hover,
+.contact-button:focus {
+    color: rgb(232, 229, 221);
+    border-color: #fff;
+    background-color: rgb(173, 160, 84);
+}
+
+.contact-btn {
+    padding-top: 30px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-input-thre {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-bottom: 2px solid;
+    color: black;
+    background-color: inherit;
+
+}
+
+input:hover,
+input:focus {
+    border: 2px solid #000;
+
+}
+
+.contact-input-thre[type="text"]::placeholder {
+
+
+    text-align: center;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+    color: #999;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder {
+    color: #999;
+}
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder {
+    color: #999;
+}
+
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}

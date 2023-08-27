@@ -30,13 +30,23 @@ window.addEventListener("resize", e => (width = carousel.offsetWidth));
 
 
 
-function open_photo(photo) {
-  document.getElementById("big-photo").innerHTML =
-    ("<img onclick='close_photo()' style='position: absolute;' src='" + photo + "'>")
+
+
+
+
+
+
+
+
+
+
+
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+      x.className += " responsive";
+  } else {
+      x.className = "topnav";
+  }
 }
-
-function close_photo() {
-  document.getElementById("big-photo").innerHTML = ""
-}
-
-

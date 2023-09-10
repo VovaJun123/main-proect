@@ -388,7 +388,7 @@ q {
 
 /* <!-- --------------------------------------------------------------section-1 --> */
 .section-first {
-    background-image: url("image/first-bacround.webp");
+    background-image: url("/image/first-bacround.webp");
     background-size: 100% 100%;
 
     min-height: 500px;

@@ -105,6 +105,8 @@ q {
     quotes: "" "";
 }
 
+
+
 /* <!-- --------------------------------------------------------------header --> */
 
 
@@ -181,7 +183,7 @@ q {
     text-align: center;
     padding: 24px 26px;
     text-decoration: none;
-    font-size: 26px;
+    /* font-size: 26px; */
 
 }
 
@@ -197,8 +199,10 @@ q {
 }
 
 
+
 @media screen and (max-width:767px) {
 
+    /* //////////////////////header */
     .heder-image {
 
         padding-top: 20px;
@@ -248,9 +252,31 @@ q {
     .topnav a {
 
         padding: 24px 66px;
+        font-size: 20px;
 
 
     }
+
+
+
+
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+
+
+
+
 
     .dropdown-content {
 
@@ -276,14 +302,361 @@ q {
         color: #fff;
 
     }
+
+    /* //////////////////////section-1 */
+    .section-first-btn p {
+        font-size: 40px;
+        text-align: center;
+
+    }
+
+    .first-btn {
+        width: 170px;
+        font-size: 20px;
+
+    }
+
+    .section-first {
+
+
+        min-height: 400px;
+
+
+
+    }
+
+
+    /* //////////////////////section-2 */
+    .second-title {
+        font-size: 30px;
+    }
+
+    .second-text {
+        font-size: 16px;
+    }
+
+    .second-btn {
+        font-size: 17px;
+    }
+
+    /* //////////////////////section-3 */
+    .thre-bloc {
+        padding: 30px 5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+
+    }
+
+    .thre-content {
+
+        width: calc(90%);
+        padding: 30px 15px;
+
+
+
+
+    }
+
+    .thre-title {
+
+        font-size: 30px;
+        text-align: center;
+
+
+
+    }
+
+    .thre-parahraf {
+
+        text-align: center;
+        font-size: 16px;
+
+        margin-bottom: 50px;
+
+
+
+    }
+
+    .thre-button {
+        font-size: 17px;
+        padding: 15px 15px;
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+
+    }
+
+    .thre-image {
+        width: calc(97%);
+
+    }
+
+    /* //////////////////////section-4 */
+
+    .four-title {
+        font-size: 30px;
+
+        margin-bottom: 30px;
+
+    }
+
+    .four-parahraf {
+        font-size: 16px;
+
+        line-height: 1.3;
+        letter-spacing: 1.5px;
+
+    }
+
+    .box-1 {
+        /* background-image: url(../image/box-3-mobile.webp); */
+        /* width: 60%; */
+        /* height: 90%; */
+    }
+
+    .box-content {
+        padding-top: 10%;
+        height: 30vh;
+
+    }
+
+    .box-content p {
+        font-size: 30px;
+
+
+
+    }
+
+    .four-bloc {
+
+        padding: 50px 10px;
+
+
+    }
+
+    /* //////////////////////section-5 */
+    .fife-button {
+
+
+        font-size: 17px;
+        padding: 15px 15px
+    }
+
+
+    /* //////////////////////footer */
+    .footer-parahraf {
+        font-size: 16px;
+
+    }
+
+    .footer-email {
+
+        font-size: 16px;
+
+    }
+
+    /* /////////////////////////////////////////Design & Planning */
+    .linck-parahraf {
+
+        font-size: 16px;
+
+
+
+    }
+
+
+
+
+
+    .item {
+        width: 330px;
+        height: 280px;
+
+        background: rgb(6, 6, 6);
+    }
+
+    .first {
+        padding-left: 25px;
+        padding-right: 5px;
+    }
+
+    .last {
+        padding-right: 15px;
+        padding-left: 5px;
+    }
+
+    /* ...................................................Збільшення фото */
+
+
+    .item:hover {
+        transform: scale(1.2);
+
+    }
+
+    #carousel {
+        padding-top: 50px;
+        height: 370px;
+
+    }
+
+    #next {
+        top: 45%;
+
+    }
+
+    #prev {
+        top: 45%;
+
+    }
+
+    /* ///////////////////////////////////////////////////M/I */
+
+    .linck-title {
+        font-size: 30px;
+    }
+
+    /* /////////////////////////////////////About Us */
+
+
+    .about-title {
+        font-size: 30px;
+        margin-bottom: 20px
+    }
+
+    .about-parahraf {
+        font-size: 17px;
+        margin-bottom: 20px;
+
+    }
+
+    .second-video-title {
+        font-size: 30px;
+        padding-top: 20px;
+
+    }
+
+    .abour-btn {
+
+        font-size: 17px;
+        width: 120px;
+
+
+    }
+
+    .about-us-video {
+        min-width: 280px;
+        min-height: 300px;
+    }
+
+    .video-proect {
+        padding: 10px 10px;
+        margin-bottom: 30px;
+
+    }
+
+    .content-box {
+
+        padding: 10px;
+        max-height: 500px;
+        overflow: scroll;
+    }
+
+    .bc-box {
+
+        background-repeat: inherit;
+
+    }
+
+    .bc-box {
+
+        background-image: url(/image/aboutt-bc.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+
+
+    /*////////////////////////// Project Portfolio */
+
+
+    .pr-top-title {
+
+        font-size: 30px;
+        padding-top: 0px;
+
+
+    }
+
+    .pr-top-parahraf {
+
+        font-size: 17px;
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+    .slider-title {
+
+        font-size: 30px;
+    }
+
+    /* /////////////////////////contact */
+
+    .contact-title {
+        font-size: 30px;
+        text-align: center;
+
+
+    }
+
+    .contact-parahraf {
+        font-size: 17px;
+
+        padding-top: 40px;
+        line-height: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contact-form {
+
+
+        padding: 20px 20px;
+        width: 100%;
+    }
+
+
+
+    .contact-button {
+        font-size: 17px;
+
+        padding: 13px 15px;
+
+
+    }
+
+    .contacs-bacroun-image {
+        background-image: url(/image/w13.jpg);
+
+        padding: 20px;
+
+    }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-    /* .topnav.responsive {
+
+
+
+/*////////////////////////////////////// dont remove */
+/* @media screen and (max-width: 600px) { */
+/* .topnav.responsive {
         position: relative;
     } */
-
+/* 
     .topnav.responsive a.icon {
         position: absolute;
         right: 0;
@@ -294,23 +667,34 @@ q {
         float: none;
         display: block;
         text-align: left;
-    }
+    } */
 
-    .item {
-        width: 400px;
-        height: 330px;
-        /* width: 25vw;
-        height: 25vh; */
-        background: rgb(6, 6, 6);
-    }
+/* } */
+
+
+
+
+
+@media screen and (min-width:768px) {
+    /* //////////////////////header */
+    /* //////////////////////section-1 */
+    /* //////////////////////section-2 */
+    /* //////////////////////section-3 */
+    /* //////////////////////section-4 */
+    /* //////////////////////section-5 */
+    /* //////////////////////footer */
 }
 
 
-
-@media screen and (min-width:768px) {}
-
-
-@media screen and (min-width:1158px) {}
+@media screen and (min-width:1158px) {
+    /* //////////////////////header */
+    /* //////////////////////section-1 */
+    /* //////////////////////section-2 */
+    /* //////////////////////section-3 */
+    /* //////////////////////section-4 */
+    /* //////////////////////section-5 */
+    /* //////////////////////footer */
+}
 
 
 
@@ -381,17 +765,13 @@ q {
 
 
 
-/* .header-linc-text:hover {
-
-    border-bottom: 2px solid white;
-} */
 
 /* <!-- --------------------------------------------------------------section-1 --> */
 .section-first {
     background-image: url("../image/first-bacround.webp");
     background-size: 100% 100%;
 
-    min-height: 500px;
+    /* min-height: 500px; */
     background-repeat: no-repeat;
 
 
@@ -417,7 +797,7 @@ q {
 }
 
 .section-first-btn p {
-    font-size: 60px;
+    /* font-size: 60px; */
     font-weight: 500;
     color: rgb(175, 110, 49);
     margin-bottom: 20px;
@@ -426,10 +806,10 @@ q {
 
 
 .first-btn {
-
-    font-size: 27px;
+    /* width: 230px;
+    font-size: 27px; */
     display: inline-block;
-    width: 230px;
+
     font-weight: 600;
     padding: 15px;
     color: rgb(11, 11, 11);
@@ -477,7 +857,7 @@ q {
 
 .second-title {
     color: white;
-    font-size: 50px;
+    /* font-size: 50px; */
     text-align: center;
     margin-bottom: 20px;
 
@@ -485,7 +865,7 @@ q {
 
 .second-text {
     color: white;
-    font-size: 25px;
+    /* font-size: 25px; */
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 20px;
@@ -498,7 +878,7 @@ q {
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 25px;
+    /* font-size: 25px; */
     background-color: #080808;
     border: 2px solid #8f8c3bd2;
     color: white;
@@ -520,34 +900,33 @@ q {
 }
 
 .thre-bloc {
-    padding: 100px 30px;
+    /* padding: 100px 30px; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
 
 }
 
 .thre-content {
     background-color: #fff;
-    /* max-width: 750px; */
-    width: calc(40%);
-    padding: 120px 50px;
+    /* width: calc(40%);
+    padding: 120px 50px; */
 
 
 
 }
 
 .thre-image {
-    width: calc(40%);
-    min-width: 200px;
+    /* width: calc(40%);
+    min-width: 200px; */
 }
 
 
 
 .thre-title {
     align-items: center;
-    text-align: left;
-    font-size: 40px;
+    /* text-align: left;
+    font-size: 40px; */
     color: #080808;
     margin-bottom: 20px;
 
@@ -556,11 +935,11 @@ q {
 
 .thre-parahraf {
     align-items: center;
-    text-align: left;
-    font-size: 18px;
+    /* text-align: left;
+    font-size: 18px; */
     color: #080808;
     letter-spacing: 1.5px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     line-height: 1.3;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -568,10 +947,10 @@ q {
 }
 
 .thre-button {
-    font-size: 23px;
+    /* font-size: 23px; */
     color: #fff;
     border: 2px solid black;
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
     background-color: #080808;
 }
 
@@ -584,7 +963,7 @@ q {
 /* <!-- --------------------------------------------------------------section-4 --> */
 .four-bloc {
     background-color: #080808;
-    padding: 100px 10px;
+    /* padding: 100px 10px; */
     min-height: 900px;
 
 }
@@ -596,7 +975,7 @@ q {
 }
 
 .four-title {
-    font-size: 60px;
+    /* font-size: 60px; */
     color: #fff;
     text-align: center;
     align-items: center;
@@ -605,7 +984,7 @@ q {
 }
 
 .four-parahraf {
-    font-size: 25px;
+    /* font-size: 25px; */
     color: #fff;
     text-align: center;
     align-items: center;
@@ -614,6 +993,11 @@ q {
 
 .box-1 {
     background-image: url(../image/box-1.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+
 
 
 
@@ -625,7 +1009,7 @@ q {
 }
 
 .box-3 {
-    background-image: url(../image/box-3.webp);
+    background-image: url(../image/box-33.jpg);
 
 
 }
@@ -634,7 +1018,7 @@ q {
 
 
 .inside {
-    height: 500px;
+    /* height: 500px; */
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -655,11 +1039,12 @@ q {
 }
 
 .box-content p {
-    font-size: 50px;
+    /* font-size: 50px; */
     color: #fff;
     text-align: center;
     align-items: center;
     margin-bottom: 20px;
+
 
 }
 
@@ -749,16 +1134,19 @@ q {
 }
 
 .fife-button {
-    font-size: 24px;
+    /* font-size: 24px;
+     padding: 10px 15px; */
     color: #080808;
     border: 2px solid #080808;
     text-align: center;
     align-items: center;
     width: 110px;
     margin: 0 auto;
-    padding: 10px 15px;
+
     margin-bottom: 50px;
 
+    font-size: 17px;
+    padding: 15px 15px
 }
 
 .fife-button:hover,
@@ -786,7 +1174,7 @@ q {
 }
 
 .footer-parahraf {
-    font-size: 20px;
+    /* font-size: 20px; */
     color: #fff;
     text-align: center;
     padding-top: 20px;
@@ -810,7 +1198,7 @@ q {
     color: #fff;
     text-align: center;
     align-items: center;
-    font-size: 20px;
+    /* font-size: 20px; */
 
 }
 
@@ -861,7 +1249,6 @@ q {
 
 .footer-number {
     padding-top: 10px;
-
     padding-bottom: 5px;
 }
 
@@ -875,13 +1262,13 @@ q {
 /* ///////////////////////////////////////////////about */
 
 .bc-box {
-    background-size: 100%;
+    /* background-size: 100%;
     min-height: 500px;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-image: url(/image/aboutt-bc.webp);
-    padding-top: 150px;
-    padding-bottom: 230px;
+    height: 100%; */
+    /* background-repeat: no-repeat; */
+    /* background-image: url(/image/aboutt-bc.webp); */
+    /* padding-top: 150px;
+    padding-bottom: 230px; */
 }
 
 .content-box {
@@ -889,7 +1276,7 @@ q {
     max-width: 1000px;
     height: auto;
     margin: 0 auto;
-    padding: 50px;
+    /* padding: 50px; */
     visibility: 0.5;
 
 
@@ -902,27 +1289,27 @@ q {
 }
 
 .about-title {
-    font-size: 50px;
+    /* font-size: 50px; */
     font-weight: 600;
     letter-spacing: 0.2;
     color: #000;
     text-align: center;
     align-items: center;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .about-parahraf {
-    font-size: 22px;
+    /* font-size: 22px; */
     line-height: 2.1;
     color: #000;
     text-align: center;
     align-items: center;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .abour-btn {
     color: #f1f1f1;
-    font-size: 22px;
+    /* font-size: 22px; */
     background-color: #000;
     border: 2px solid #000;
     padding: 10px 15px;
@@ -946,19 +1333,19 @@ q {
 }
 
 .video-proect {
-    padding: 300px;
-    padding-top: 100px;
+    /* padding: 300px;
+    padding-top: 100px; */
 
     padding-bottom: 0px;
 }
 
 .second-video-title {
-    font-size: 60px;
+    /* font-size: 60px; */
     color: #070707;
     margin: 0 auto;
     text-align: center;
     align-items: center;
-    padding-top: 70px;
+    /* padding-top: 70px; */
     width: fit-content;
 
 
@@ -1070,8 +1457,8 @@ ul {
     text-align: center;
     align-items: center;
     color: #fff;
-    /* font-size: 70px; */
-    font-size: 5vh;
+
+    /* font-size: 4, 8vh; */
     letter-spacing: 4px;
 
 }
@@ -1080,7 +1467,7 @@ ul {
     text-align: center;
     align-items: center;
     color: #fff;
-    font-size: 24px;
+    /* font-size: 24px; */
     letter-spacing: 1.1px;
     line-height: 28px;
 
@@ -1112,18 +1499,17 @@ ul {
     justify-content: center;
     padding-top: 500px;
     flex-wrap: wrap;
-    padding: 0px 30px;
+    /* padding: 0px 30px; */
 
 }
 
 .contacs-bacroun-image {
-    background-image: url(/image/contacs-bcround-image.webp);
-    background-size: cover;
+    /* background-image: url(/image/contacs-bcround-image.webp); */
+    /* background-size: cover;
     background-repeat: no-repeat;
-    /* height: 1394px; */
     height: 100%;
     width: 100%;
-    padding: 300px 0px;
+    padding: 300px 0px; */
 }
 
 .contact-text-content {
@@ -1157,21 +1543,21 @@ ul {
 }
 
 .contact-parahraf {
-    font-size: 22px;
+    /* font-size: 22px; */
     color: #fff;
     text-align: center;
-    padding-top: 40px;
-    line-height: 40px;
-    text-align: left;
+    /* padding-top: 40px;
+    line-height: 40px; */
+    /* text-align: left; */
 }
 
 .contact-title {
-    font-size: 40px;
+    /* font-size: 40px; */
     font-weight: 500;
     color: #fff;
-    text-align: center;
+
     align-items: center;
-    text-align: left;
+    /* text-align: left; */
 
 }
 
@@ -1223,9 +1609,9 @@ ul {
 .contact-form {
     background-color: #f1f1f1;
     /* min-width: 700px; */
-    width: fit-content;
+    /* width: fit-content; */
     height: inherit;
-    padding: 90px;
+    /* padding: 90px; */
 }
 
 .input-first {
@@ -1259,10 +1645,10 @@ ul {
 
 
 .contact-button {
-    font-size: 20px;
+    /* font-size: 20px; */
     color: #f8f6f6;
     border: 2px solid #080808;
-    padding: 9px 13px;
+    /* padding: 9px 13px; */
     text-align: center;
     align-items: center;
     background-color: rgb(11, 11, 11);
@@ -1360,8 +1746,8 @@ input:focus:-ms-input-placeholder {
 }
 
 #carousel {
-    padding-top: 100px;
-    height: 600px;
+    /* padding-top: 100px; */
+    /* height: 600px; */
     overflow: auto;
     scroll-behavior: smooth;
     scrollbar-width: none;
@@ -1387,14 +1773,14 @@ input:focus:-ms-input-placeholder {
 }
 
 #prev {
-    top: 50%;
+    /* top: 50%; */
     left: 0;
     transform: translate(50%, -50%);
     display: none;
 }
 
 #next {
-    top: 50%;
+    /* top: 50%; */
     right: 0;
     transform: translate(-50%, -50%);
 }
@@ -1407,7 +1793,7 @@ input:focus:-ms-input-placeholder {
     box-sizing: border-box;
 }
 
-.item {
+/* .item {
     width: 550px;
     height: 480px;
 
@@ -1422,19 +1808,20 @@ input:focus:-ms-input-placeholder {
 .last {
     padding-right: 75px;
     padding-left: 5px;
-}
+} */
 
 /* ...................................................Збільшення фото */
 .item {
     transition: 1s;
-    /* Время эффекта */
+
 }
 
-.item:hover {
+/* Время эффекта */
+/* .item:hover {
     transform: scale(1.3);
-    /* Увеличиваем масштаб */
-}
-
+   
+} */
+/* Увеличиваем масштаб */
 /* ///////////////////////////////////////////////////////////////pr-page */
 .main-conteiner {
     background-color: rgb(6, 6, 6);
@@ -1452,9 +1839,9 @@ input:focus:-ms-input-placeholder {
 
 .pr-top-title {
     color: rgb(243, 241, 241);
-    font-size: 65px;
+    /* font-size: 65px; */
     letter-spacing: 2px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     text-align: center;
 
 
@@ -1462,17 +1849,17 @@ input:focus:-ms-input-placeholder {
 
 .pr-top-parahraf {
     color: rgb(250, 248, 248);
-    font-size: 28px;
+    /* font-size: 28px; */
     letter-spacing: 1px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
     align-items: center;
     text-align: center;
 }
 
 .slider-title {
     color: rgb(255, 251, 251);
-    font-size: 35px;
+    /* font-size: 35px; */
     letter-spacing: 1px;
 
     align-items: center;

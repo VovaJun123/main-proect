@@ -202,6 +202,7 @@ q {
 
 @media screen and (max-width:767px) {
 
+
     /* //////////////////////header */
     .heder-image {
 
@@ -533,7 +534,7 @@ q {
     }
 
     .second-video-title {
-        font-size: 30px;
+        font-size: 25px;
         padding-top: 20px;
 
     }
@@ -643,8 +644,29 @@ q {
     .contacs-bacroun-image {
         background-image: url(/image/w13.jpg);
 
-        padding: 20px;
+        padding: 50px;
 
+    }
+
+    .contact-text {
+        display: flex;
+        justify-content: center;
+
+        flex-wrap: wrap;
+        /* padding: 0px 30px; */
+
+    }
+
+    .contact-bos {
+        padding: 20px;
+    }
+
+    .contact-email {
+        color: #fff;
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+        display: block;
     }
 }
 
@@ -676,24 +698,435 @@ q {
 
 
 @media screen and (min-width:768px) {
+
     /* //////////////////////header */
+    .topnav a {
+
+        padding: 14px 16px;
+
+    }
+
     /* //////////////////////section-1 */
+
+    .section-first-btn p {
+        font-size: 40px;
+        text-align: center;
+
+    }
+
+    .first-btn {
+        font-size: 20px;
+    }
+
     /* //////////////////////section-2 */
+    .second-title {
+
+        font-size: 30px;
+
+    }
+
+    .second-section-content {
+        max-width: 1200px;
+        padding: 50px 0px;
+        margin: 0 auto;
+    }
+
     /* //////////////////////section-3 */
+
+    .thre-bloc {
+        padding: 30px 5px;
+
+    }
+
+    .thre-content {
+        width: calc(90%);
+        padding: 30px 15px;
+    }
+
+    .thre-title {
+        font-size: 30px;
+
+    }
+
+    .thre-button {
+        font-size: 17px;
+        padding: 15px 15px;
+        display: block;
+        width: fit-content;
+        margin-top: 20px;
+    }
+
+
+
     /* //////////////////////section-4 */
+    .four-title {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .four-parahraf {
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+        align-items: center;
+        padding: 0px 10px;
+    }
+
+    .box-content {
+
+        height: 25vh;
+    }
+
+    .four-bloc {
+
+        padding: 50px 10px;
+
+    }
+
+    .box-content p {
+        font-size: 30px;
+
+    }
+
     /* //////////////////////section-5 */
     /* //////////////////////footer */
+    .footer-email {
+
+        font-size: 18px;
+    }
+
+    .footer-parahraf {
+        font-size: 18px;
+
+    }
+
+
+    /* //////////////////////////////////desing */
+
+    #carousel {
+        padding-top: 80px;
+        height: 470px;
+    }
+
+    .item {
+        width: 460px;
+        height: 380px;
+        background: rgb(6, 6, 6);
+    }
+
+    .item:hover {
+        transform: scale(1.2);
+
+    }
+
+    .linck-title {
+
+        font-size: 30px;
+    }
+
+    .linck-parahraf {
+
+        font-size: 18px;
+        letter-spacing: 1.1px;
+        line-height: 20px;
+    }
+
+    /* ///////////////about */
+
+
+    .content-box {
+        padding: 10px;
+
+
+    }
+
+    .bc-box {
+        background-image: url(/image/aboutt-bc.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .second-video-title {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .video-proect {
+        padding: 10px 10px;
+        margin-bottom: 30px;
+    }
+
+    /*//////////////// project */
+
+    .pr-top-title {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .pr-top-parahraf {
+        font-size: 18px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .slider-title {
+        font-size: 30px;
+    }
+
+    .first {
+        padding-left: 45px;
+
+    }
+
+    /* ////////////////////////////contact */
+
+
+
+    .contacs-bacroun-image {
+        background-image: url(/image/contacs-bcround-image.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+
+        padding: 150px 300px;
+    }
+
+    .contact-text {
+        display: flex;
+
+        flex-wrap: wrap;
+        justify-content: center;
+        /* padding: 0px 30px; */
+    }
+
+    .contact-form {
+        background-color: #f1f1f1;
+
+        /* width: 100%; */
+        height: inherit;
+
+        width: 400px;
+        min-width: 280px;
+        padding: 20px 20px;
+    }
+
+    .contact-bos {
+
+        padding: 20px;
+
+        min-width: 280px;
+    }
+
+    .contact-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .contact-parahraf {
+        max-width: 400px;
+        padding-top: 20px;
+    }
+
+
+
 }
 
 
 @media screen and (min-width:1158px) {
+
     /* //////////////////////header */
+    .topnav a {
+
+        padding: 24px 26px;
+
+        font-size: 26px;
+    }
+
+
+
     /* //////////////////////section-1 */
+    .section-first-btn p {
+        font-size: 60px;
+
+    }
+
+    .first-btn {
+        font-size: 30px;
+    }
+
     /* //////////////////////section-2 */
+    .second-title {
+        font-size: 40px;
+    }
+
+    .second-text {
+
+        font-size: 22px;
+
+    }
+
     /* //////////////////////section-3 */
+    .thre-bloc {
+        padding: 30px 20px;
+    }
+
+    .thre-title {
+        font-size: 40px;
+    }
+
+    .thre-parahraf {
+        font-size: 22px;
+    }
+
+    .thre-button {
+        font-size: 23px;
+
+    }
+
     /* //////////////////////section-4 */
+    .four-bloc {
+        padding: 50px 20px;
+    }
+
+    .four-title {
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .four-parahraf {
+        font-size: 22px;
+
+    }
+
+    .box-content {
+        height: 75vh;
+    }
+
+    .box-content p {
+        font-size: 40px;
+    }
+
     /* //////////////////////section-5 */
+    .fife-button {
+
+        font-size: 23px;
+
+    }
+
     /* //////////////////////footer */
+    .footer-email {
+        font-size: 20px;
+    }
+
+    .footer-parahraf {
+        font-size: 20px;
+
+    }
+
+    /* //////////////////////desing */
+
+    .linck-title {
+        font-size: 40px;
+    }
+
+    .linck-parahraf {
+
+        font-size: 24px;
+
+    }
+
+
+
+    /* about */
+    .content-box {
+        padding: 30px;
+    }
+
+    .about-title {
+        font-size: 40px;
+
+        margin-bottom: 50px;
+    }
+
+    .about-parahraf {
+        font-size: 22px;
+
+        margin-bottom: 20px;
+    }
+
+    .abour-btn {
+
+        font-size: 22px;
+
+        padding: 15px 15px;
+
+    }
+
+    .second-video-title {
+        font-size: 40px;
+        padding-top: 50px;
+    }
+
+    .video-proect {
+        padding: 30px 300px;
+        margin-bottom: 30px;
+    }
+
+    /* //////////////////////projects */
+
+
+    .pr-top-title {
+        font-size: 40px;
+        padding-top: 40px;
+    }
+
+    .pr-top-parahraf {
+        font-size: 22px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .slider-title {
+        font-size: 35px;
+    }
+
+    /* -/////////////////////////////contact */
+
+    .contacs-bacroun-image {
+
+        background-size: cover;
+        /* padding: 300px 0px; */
+    }
+
+    .contact-text-content {
+        background-color: #1e1e1e;
+        width: 100%;
+    }
+
+    .contact-text {
+
+        flex-wrap: nowrap;
+        flex-direction: row;
+
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-title {
+        font-size: 40px;
+
+    }
+
+    .contact-parahraf {
+        font-size: 22px;
+        max-width: 600px;
+        padding: 25px;
+
+
+    }
+
 }
 
 
@@ -809,7 +1242,6 @@ q {
     /* width: 230px;
     font-size: 27px; */
     display: inline-block;
-
     font-weight: 600;
     padding: 15px;
     color: rgb(11, 11, 11);
@@ -941,7 +1373,7 @@ q {
     letter-spacing: 1.5px;
     /* margin-bottom: 50px; */
     line-height: 1.3;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 
 
 }
@@ -1135,7 +1567,7 @@ q {
 
 .fife-button {
     /* font-size: 24px;
-     padding: 10px 15px; */
+    padding: 10px 15px; */
     color: #080808;
     border: 2px solid #080808;
     text-align: center;
@@ -1145,7 +1577,7 @@ q {
 
     margin-bottom: 50px;
 
-    font-size: 17px;
+    /* font-size: 17px; */
     padding: 15px 15px
 }
 
@@ -1262,13 +1694,13 @@ q {
 /* ///////////////////////////////////////////////about */
 
 .bc-box {
-    /* background-size: 100%;
+    /* background-size: 100%; */
     min-height: 500px;
-    height: 100%; */
-    /* background-repeat: no-repeat; */
-    /* background-image: url(/image/aboutt-bc.webp); */
-    /* padding-top: 150px;
-    padding-bottom: 230px; */
+    /* height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/image/aboutt-bc.webp);
+    padding-top: 150px;
+    padding-bottom: 230px;   */
 }
 
 .content-box {
@@ -1479,6 +1911,7 @@ ul {
     font-size: 24px;
     text-align: center;
     text-decoration: underline #f1f1f1;
+    margin-bottom: 5px;
 }
 
 .linck-parahraf-box {
@@ -1497,19 +1930,19 @@ ul {
 .contact-text {
     display: flex;
     justify-content: center;
-    padding-top: 500px;
-    flex-wrap: wrap;
+    /* padding-top: 500px; */
+    /* flex-wrap: wrap; */
     /* padding: 0px 30px; */
 
 }
 
 .contacs-bacroun-image {
-    /* background-image: url(/image/contacs-bcround-image.webp); */
-    /* background-size: cover;
+    /* background-image: url(/image/contacs-bcround-image.webp);
+    background-size: cover; */
     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
-    padding: 300px 0px; */
+    /* width: 100%; */
+    /* padding: 300px 0px; */
 }
 
 .contact-text-content {
@@ -1547,8 +1980,8 @@ ul {
     color: #fff;
     text-align: center;
     /* padding-top: 40px;
-    line-height: 40px; */
-    /* text-align: left; */
+    line-height: 40px;
+    text-align: left; */
 }
 
 .contact-title {
@@ -1575,6 +2008,7 @@ ul {
     color: #fff;
     text-align: center;
     align-items: center;
+    display: block;
     font-size: 20px;
 
 }
@@ -1746,8 +2180,8 @@ input:focus:-ms-input-placeholder {
 }
 
 #carousel {
-    /* padding-top: 100px; */
-    /* height: 600px; */
+    /* padding-top: 100px;
+    height: 600px; */
     overflow: auto;
     scroll-behavior: smooth;
     scrollbar-width: none;
@@ -1793,7 +2227,8 @@ input:focus:-ms-input-placeholder {
     box-sizing: border-box;
 }
 
-/* .item {
+/* 
+.item {
     width: 550px;
     height: 480px;
 

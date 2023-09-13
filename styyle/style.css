@@ -573,7 +573,7 @@ q {
 
     .bc-box {
 
-        background-image: url(/image/aboutt-bc.webp);
+        background-image: url(../image/aboutt-bc.webp);
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -642,7 +642,7 @@ q {
     }
 
     .contacs-bacroun-image {
-        background-image: url(/image/w13.jpg);
+        background-image: url(../image/w13.jpg);
 
         padding: 50px;
 

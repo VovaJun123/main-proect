@@ -629,6 +629,7 @@ q {
 
         padding: 20px 20px;
         width: 100%;
+        min-width: 320px;
     }
 
 
